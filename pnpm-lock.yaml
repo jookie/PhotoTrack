@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@clerk/clerk-react': ^4.12.1
   '@vitejs/plugin-react': ^1.3.1
-  convex: 0.12.2
+  convex: 0.13.0
   node-fetch: ^2.6.1
   npm-run-all: ^4.1.5
   openai: ~3.2.0
@@ -12,8 +12,8 @@ specifiers:
   vite: ^2.3.8
 
 dependencies:
-  '@clerk/clerk-react': 4.12.1_sfoxds7t5ydpegc3knd667wn6m
-  convex: 0.12.2_ysqknjrf54g3ibr4dnvgfatwsa
+  '@clerk/clerk-react': 4.15.3_react@17.0.2
+  convex: 0.13.0_vopbayxr36xixm5w2qi7mllcrm
   node-fetch: 2.6.9
   openai: 3.2.0
   react: 17.0.2
@@ -295,33 +295,29 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@clerk/clerk-react/4.12.1_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-kHm7lSgEtQ4mCchlyvTbdGsPZpAZornE6bE/kK/TSi75UWGebohKT29g+fv8QSn+WYDPs2d4IIsssRJpLbeFRA==}
+  /@clerk/clerk-react/4.15.3_react@17.0.2:
+    resolution: {integrity: sha512-ZR7MyQyPHWBY0CpdWsvwY4FbtAxTWKjJXH9LFhOHhNc/R7YOv1nUWu1nWsxwBzNxt9Z6QSJRyXYwpSjoUHHJJw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16'
-      react-dom: '>=16'
     dependencies:
-      '@clerk/shared': 0.12.3_sfoxds7t5ydpegc3knd667wn6m
-      '@clerk/types': 3.28.5
+      '@clerk/shared': 0.15.6_react@17.0.2
+      '@clerk/types': 3.35.3
       react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
       swr: 1.3.0_react@17.0.2
       tslib: 2.4.1
     dev: false
 
-  /@clerk/shared/0.12.3_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-op5+1H9r98WSlDzqjBOFNMZmxmNoVvQ+cjcMmqvQt8maAgkTV5cm8jLQPfIA0JjUb1NiaN8DtnWxUlbs8jPw9g==}
+  /@clerk/shared/0.15.6_react@17.0.2:
+    resolution: {integrity: sha512-fhV/o2b1QZ3LokIwE3fth7DZ6tx2kqp2Ke+2skW7FNj208tedL9aEMVdeJ37Pqasw1lfv67MjJ/2gecBSFd/5Q==}
     peerDependencies:
       react: '>=16'
-      react-dom: '>=16'
     dependencies:
       react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /@clerk/types/3.28.5:
-    resolution: {integrity: sha512-O49WM4h0s6EKSUZfXCDmj02QUuvsO9RJMFA3HMCWby1dCOo6J78kDv53iuUNl6hSBLoKkBNwzQHZUeTc8ts5uA==}
+  /@clerk/types/3.35.3:
+    resolution: {integrity: sha512-P1R1XCGjDguP3fBTaznbuahmwFWfxoJ3O+XJ2MAsDolzHi9m19lslC+80+eVs7kRcHptQuEmXryJ5Uy+4Uui9A==}
     engines: {node: '>=14'}
     dependencies:
       csstype: 3.1.1
@@ -511,8 +507,8 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
 
-  /convex/0.12.2_ysqknjrf54g3ibr4dnvgfatwsa:
-    resolution: {integrity: sha512-ZJURjX9709eIRU34QlKZQUmhDVkHGQPHeJ0MVF2CAlL5Auv1I35MklPjFcgvZyCgc5qvGdGORm9y98zvFDV3Cw==}
+  /convex/0.13.0_vopbayxr36xixm5w2qi7mllcrm:
+    resolution: {integrity: sha512-9YEtY2pWyExnpfS0K7DomY+pdl2i9LgDnN4am4eUkLHQ0u1j7USqmE6AAz3oBWyjsqJuiqyvIEW18K7c/JDtXg==}
     engines: {node: '>=16.15.1', npm: '>=7.0.0'}
     hasBin: true
     peerDependencies:
@@ -530,10 +526,11 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@clerk/clerk-react': 4.12.1_sfoxds7t5ydpegc3knd667wn6m
+      '@clerk/clerk-react': 4.15.3_react@17.0.2
       base64-js: 1.5.1
       encoding: 0.1.13
       esbuild: 0.15.18
+      jwt-decode: 3.1.2
       node-fetch: 2.6.9_encoding@0.1.13
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -1361,6 +1358,10 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
     dev: true
+
+  /jwt-decode/3.1.2:
+    resolution: {integrity: sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==}
+    dev: false
 
   /load-json-file/4.0.0:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}

@@ -3,7 +3,7 @@ import { useAction } from "../../convex/_generated/react";
 import { OrSignIn } from "./OrSignIn";
 
 export function AddIdentity() {
-  const addIdentity = useAction("actions/openai:moderateIdentity");
+  const addIdentity = useAction("openai:moderateIdentity");
   const [newIdentityName, setNewIdentityName] = useState("");
   const [newIdentityInstructions, setNewIdentityInstructions] = useState("");
   const [loading, setLoading] = useState(false);

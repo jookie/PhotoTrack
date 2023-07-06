@@ -18,7 +18,7 @@ export default function App() {
   const [newThreadId, setNewThreadId] = useState(null);
   const createThread = useMutation(api.threads.add);
   useEffect(() => {
-    if (newThreadId && messages.find((m) => newThreadId.equals(m.threadId)))
+    if (newThreadId && messages.find((m) => newThreadId === m.threadId))
       setNewThreadId(null);
   }, [newThreadId, messages]);
 

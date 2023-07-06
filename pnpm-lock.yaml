@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@clerk/clerk-react': ^4.12.1
+  '@clerk/clerk-react': ^4.22.0
   '@vitejs/plugin-react': ^1.3.1
   convex: 0.18.0
   node-fetch: ^2.6.1
@@ -12,8 +12,8 @@ specifiers:
   vite: ^2.3.8
 
 dependencies:
-  '@clerk/clerk-react': 4.20.5_react@17.0.2
-  convex: 0.18.0_vd4vwjjnqscw7hhhoudvr6xji4
+  '@clerk/clerk-react': 4.22.0_react@17.0.2
+  convex: 0.18.0_vsoya3hodwhrqxj4bkpjekqrw4
   node-fetch: 2.6.9
   openai: 3.2.0
   react: 17.0.2
@@ -295,14 +295,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@clerk/clerk-react/4.20.5_react@17.0.2:
-    resolution: {integrity: sha512-y5edxot+7adnyUqOGNgS7bEA3eoM53FMC8jV8VmUFvKLkOOMQpgfdo3/I7PWoTrRaNwqNWmhQGy1J3uqw8gv4g==}
+  /@clerk/clerk-react/4.22.0_react@17.0.2:
+    resolution: {integrity: sha512-vtGOszKYpDdV3cFtiG24jf1UdFGrXIfIzTyjh3aHd2mXGE2dIm8m04X3+mHBDStJFpJNzim8f+7HMLVeMRJhkA==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16'
     dependencies:
       '@clerk/shared': 0.19.1_react@17.0.2
-      '@clerk/types': 3.46.0
+      '@clerk/types': 3.46.1
       react: 17.0.2
       swr: 1.3.0_react@17.0.2
       tslib: 2.4.1
@@ -319,8 +319,8 @@ packages:
       swr: 1.3.0_react@17.0.2
     dev: false
 
-  /@clerk/types/3.46.0:
-    resolution: {integrity: sha512-IooGZ64uARKg+GS6b38usrWqhzU0PcrDbZBaZm4JmtYd5CZbWABklBNkiXQhnnaKYdvHr5K8vhJd5spsJarNpw==}
+  /@clerk/types/3.46.1:
+    resolution: {integrity: sha512-IA/iSXJJZym4Z6f9OcT9OJayK2opVhxUVJky15aY4iVsJCPScgApBuuzC7N4vfXwA6RI/wGebFbvmsEQ3oI/UA==}
     engines: {node: '>=14'}
     dependencies:
       csstype: 3.1.1
@@ -506,7 +506,7 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
 
-  /convex/0.18.0_vd4vwjjnqscw7hhhoudvr6xji4:
+  /convex/0.18.0_vsoya3hodwhrqxj4bkpjekqrw4:
     resolution: {integrity: sha512-Ka6mDIcvkUJPiyn+G5Nn2/F9kEj7JFrYcLJt7GczWfn2f4oV4lsN3fragCdANOkgtKBxSc9WsXV4Cdg6HVZYPg==}
     engines: {node: '>=16.15.1', npm: '>=7.0.0'}
     hasBin: true
@@ -525,7 +525,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@clerk/clerk-react': 4.20.5_react@17.0.2
+      '@clerk/clerk-react': 4.22.0_react@17.0.2
       encoding: 0.1.13
       esbuild: 0.15.18
       jwt-decode: 3.1.2

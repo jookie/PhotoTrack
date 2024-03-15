@@ -1,10 +1,8 @@
 # git init
 # export PATH=/usr/local/share/npm/bin:$PATH
-
 git add .
 git commit -m "Initial commit"
 git push 
-
 # Creating a New Git Repository on a Hosting Service (e.g., GitHub, GitLab):
 # 1. Create a Repository on the Hosting Service:
 # For GitHub:
